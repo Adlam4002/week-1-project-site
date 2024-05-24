@@ -144,3 +144,6 @@ h2 {
 .footer-section {
   color: rgb(189, 189, 189);
 }
+.nav1 {
+  display: flex;
+}
