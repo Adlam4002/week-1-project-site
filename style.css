@@ -117,6 +117,7 @@ h2 {
   /* text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
     1px 1px 0 #3b3b3b; */
   -webkit-text-stroke: #ffffff 1px;
+  text-decoration: none;
 }
 .padder1 {
   font-size: 3em;
@@ -146,4 +147,17 @@ h2 {
 }
 .nav1 {
   display: flex;
+}
+.button {
+  background-color: rgb(2, 0, 92);
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  border: solid white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
