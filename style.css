@@ -4,13 +4,13 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-/* .body-container {
+.body-container {
   display: flex;
-  border: solid black;
+  /* border: solid black; */
   height: 95vh;
   width: 100vw;
   flex-direction: column;
-} */
+}
 h3 {
   font-size: 2em;
 }
@@ -30,7 +30,7 @@ h2 {
 }
 .main-container {
   display: flex;
-  border: solid black;
+  /* border: solid black; */
   height: 300vh;
   width: 100vw;
   align-items: center;
@@ -38,7 +38,10 @@ h2 {
 }
 .footer-container {
   display: flex;
-  border: solid black;
+  position: absolute bottom 10vh;
+  /* border: solid black; */
+  background-color: rgb(68, 68, 68);
+  justify-content: center;
   height: 15vh;
   width: 100vw;
 }
@@ -47,75 +50,97 @@ h2 {
   flex-direction: row;
 }
 .main-section1 {
-  border: solid black;
+  /* border: solid black; */
   width: 100vw;
   height: 100vh;
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: url("https://standupforsouthport.com/wp-content/uploads/2023/10/TheOldBankSouthport-01.jpg");
+  /* background-image: url("https://standupforsouthport.com/wp-content/uploads/2023/10/TheOldBankSouthport-01.jpg"); */
+  background-image: url("https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHx8MA%3D%3D");
   display: flex;
   flex-direction: column;
-  align-items: bottom;
+  /* align-items: bottom; */
   justify-content: center;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+  color: rgb(2, 0, 92);
+  /* text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
+    1px 1px 0 #3b3b3b;  */
 }
 .main-section2 {
-  border: solid black;
+  /* border: solid black; */
   width: 100vw;
   height: 100vh;
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: url("https://historyuk.s3.eu-west-2.amazonaws.com/s3fs-public/2023-08/shutterstock_2313750811.jpg?VersionId=L3heom6_o3mIIA61VixzWVWAs0Jy_kAm");
+  /* background-image: url("https://historyuk.s3.eu-west-2.amazonaws.com/s3fs-public/2023-08/shutterstock_2313750811.jpg?VersionId=L3heom6_o3mIIA61VixzWVWAs0Jy_kAm"); */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/025/272/729/large_2x/dark-image-of-a-steel-bank-vault-free-photo.jpg");
   display: flex;
   flex-direction: column;
   align-items: bottom;
   justify-content: center;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+  color: rgb(2, 0, 92);
+  text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
+    1px 1px 0 #3b3b3b;
 }
 .main-section3 {
-  border: solid black;
+  /* border: solid black; */
   width: 100vw;
   height: 100vh;
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: url("https://theoxfordmagazine.com/wp-content/uploads/old-bank-hotel-oxford-01-1920x1080-1.jpg");
+  /* background-image: url("https://theoxfordmagazine.com/wp-content/uploads/old-bank-hotel-oxford-01-1920x1080-1.jpg"); */
+  background-image: url("https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?cs=srgb&dl=pexels-pixabay-219692.jpg&fm=jpg");
   display: flex;
   flex-direction: column;
   align-items: bottom;
   justify-content: center;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+  color: rgb(2, 0, 92);
+  text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
+    1px 1px 0 #3b3b3b;
 }
+
 .d1 {
-  border: solid black;
+  /* border: solid black; */
   align-self: self-end;
 }
-.d2 {
+/* .d2 {
   border: solid black;
-}
+} */
 .padder {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: rgb(0, 0, 0);
   /* background-color: antiquewhite; */
   padding-left: 50px;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+  color: rgb(2, 0, 92);
+  /* text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
+    1px 1px 0 #3b3b3b; */
+  -webkit-text-stroke: #ffffff 1px;
 }
 .padder1 {
-  font-size: 1.5em;
+  font-size: 3em;
   font-style: italic;
   color: rgb(48, 48, 48);
   /* background-color: antiquewhite; */
   padding-left: 50px;
-  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+  color: rgb(2, 0, 92);
+  /* text-shadow: -1px -1px 0 #3b3b3b, 1px -1px 0 #3b3b3b, -1px 1px 0 #3b3b3b,
+    1px 1px 0 #3b3b3b; */
+  -webkit-text-stroke: #ffffff 1px;
 }
 .sign-up1 {
-  width: 300px;
-  height: 150px;
+  align-self: auto;
+}
+.pad {
+  padding-left: 10vw;
+  -webkit-text-stroke: #ffffff 1.5px;
+  /* background-color: #3b3b3b; */
+}
+.pad1 {
+  padding-left: 10vw;
+  /* background-color: #3b3b3b; */
+}
+.footer-section {
+  color: rgb(189, 189, 189);
 }
