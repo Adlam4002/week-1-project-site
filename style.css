@@ -50,12 +50,18 @@
   border: solid black;
   width: 100vw;
   height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
   background-image: url("https://historyuk.s3.eu-west-2.amazonaws.com/s3fs-public/2023-08/shutterstock_2313750811.jpg?VersionId=L3heom6_o3mIIA61VixzWVWAs0Jy_kAm");
 }
 .main-section3 {
   border: solid black;
   width: 100vw;
   height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
   background-image: url("https://theoxfordmagazine.com/wp-content/uploads/old-bank-hotel-oxford-01-1920x1080-1.jpg");
 }
 .d1 {
