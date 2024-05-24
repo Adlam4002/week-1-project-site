@@ -22,7 +22,7 @@
   display: flex;
   border: solid black;
   height: 300vh;
-  width: 93vw;
+  width: 100vw;
   align-items: center;
   flex-direction: column;
 }
@@ -40,6 +40,9 @@
   border: solid black;
   width: 100vw;
   height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
   background-image: url("https://standupforsouthport.com/wp-content/uploads/2023/10/TheOldBankSouthport-01.jpg");
 }
 .main-section2 {
