@@ -1,0 +1,63 @@
+* {
+  background-color: tomato;
+}
+
+.body-container {
+  display: flex;
+  border: solid black;
+  height: 95vh;
+  width: 93vw;
+  flex-direction: column;
+}
+.header-container {
+  display: flex;
+  border: solid black;
+  height: 15vh;
+  width: 93vw;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+}
+.main-container {
+  display: flex;
+  border: solid black;
+  height: 300vh;
+  width: 93vw;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-container {
+  display: flex;
+  border: solid black;
+  height: 15vh;
+  width: 93vw;
+}
+.header-section {
+  display: flex;
+  flex-direction: row;
+}
+.main-section1 {
+  border: solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://standupforsouthport.com/wp-content/uploads/2023/10/TheOldBankSouthport-01.jpg");
+}
+.main-section2 {
+  border: solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://historyuk.s3.eu-west-2.amazonaws.com/s3fs-public/2023-08/shutterstock_2313750811.jpg?VersionId=L3heom6_o3mIIA61VixzWVWAs0Jy_kAm");
+}
+.main-section3 {
+  border: solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://theoxfordmagazine.com/wp-content/uploads/old-bank-hotel-oxford-01-1920x1080-1.jpg");
+}
+.d1 {
+  border: solid black;
+  align-self: self-end;
+}
+.d2 {
+  border: solid black;
+}
